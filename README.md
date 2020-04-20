@@ -17,10 +17,11 @@ git clone https://github.com/mthreet/drlnd-p2
 ```
 
 ## Running the code
-To run a pretrained model (that received an average score of +13.0 over 100 episodes), simply run [eval.py](eval.py):
+To run a pretrained model (that received an average score of +0.513 over 100 episodes), simply run [eval.py](eval.py):
 ```
 python eval.py
 ```
+**Note that this model is only somewhat stable. On average it will play pretty well, but there are cases where it fails spectacularly.**
 
 To train a model with [train.py](train.py), simply run:
 ```
